@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Copy URL",
+  "version": "1.0",
+  "description": "点击按钮复制当前页面的URL到剪贴板",
+    "default_title": "Copy URL",
+    "action": {
+      "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "images/icons8-copy-16.png",
+    "32": "images/icons8-copy-32.png",
+    "48": "images/icons8-copy-64.png",
+    "64": "images/icons8-copy-128.png"
+},
+  "permissions": ["clipboardWrite","activeTab", "tabs","scripting","runtime"]
+    }
